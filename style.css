@@ -233,4 +233,22 @@ button {
 }
 
 
+footer{
+    background-color:#111827;
+    color:white;
+    margin-top:100px;
+    padding:60px 8%;
+    border:royalblue solid 1px; 
+}
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:50px;
+  
+}
 
+.copyright{
+    text-align:center;
+    color:#9ca3af;
+    font-size:14px;
+}
