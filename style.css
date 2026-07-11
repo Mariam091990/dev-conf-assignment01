@@ -7,7 +7,7 @@ nav {
 .logo-section {
     display: flex;
     align-items: center;
-    gap: 2px;         
+    gap: 2px;
 }
 
 .logo-section img {
@@ -41,32 +41,70 @@ button {
     cursor: pointer;
 }
 
-.banner{
+.banner {
     background-image: url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
 
     height: 400px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.banner-content{
+.banner-content {
     text-align: center;
     width: 700px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 70px;
     color: white;
     margin-bottom: 20px;
 }
 
-.banner-content p{
+.banner-content p {
     color: white;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 40px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.speakers h2 {
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+
+.speaker-card {
+    width: 500px;
+
+    border-radius: 15px;
+
+     padding: 10px;
+
+}
+ .speaker-card img {
+    width: 100%;
+    height: auto;
+
+} 
+
+.speaker-card h3 {
+    font-size: 20px;
+
+
+}
+
+.speaker-card h4 {
+    font-size: 15px;
 }
