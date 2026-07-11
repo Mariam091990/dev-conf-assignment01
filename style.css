@@ -25,7 +25,7 @@ ul {
 
 li {
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     color: rgb(6, 3, 13);
     cursor: pointer;
@@ -41,7 +41,32 @@ button {
     cursor: pointer;
 }
 
-/* img {
-    width: 100px;
-    height: 100px;
-}        */
+.banner{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 400px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content{
+    text-align: center;
+    width: 700px;
+}
+
+.banner-content h1{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
