@@ -108,3 +108,96 @@ button {
 .speaker-card h4 {
     font-size: 15px;
 }
+
+.pricing {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.pricing h1, p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+   
+
+.pricing-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+}
+
+.standard{
+
+     padding: 12px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    background:white;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.standard ul{
+    font-size: 50%;
+     color:rgb(6, 3, 13);
+     flex-direction: column;
+}
+.standard li{
+    margin: 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(6, 3, 13);
+    cursor: pointer;
+    
+}
+.pro{
+    padding:30px;
+    background:#111827;
+    color:white;
+     border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+ .pro ul{
+    font-size: 50%;
+    color:white;
+     flex-direction: column;
+ }
+ .pro li{
+    margin: 5px 0;
+   font-size: 15px;
+   font-style: normal;
+   color: white;
+   cursor: pointer;
+   
+ }  
+
+   .pro span{
+        font-size: 15px;
+        color:rgb(54, 15, 146);
+        
+    }
+
+.team{    padding:30px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    background:white;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+    .team ul{
+        font-size: 50%;
+        color:rgb(6, 3, 13);
+        flex-direction: column;
+        
+    }
+    .team li{
+        margin: 5px 0;
+        font-size: 15px;
+        font-style: normal;
+        color: rgb(6, 3, 13);
+        cursor: pointer;
+        
+    }
+    
+ 
+  
+
+ 
